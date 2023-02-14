@@ -33,7 +33,6 @@ const AnalysisComponent = () => {
   }, [attendance]);
   return (
     <>
-      {error && <Message variant="danger">{error}</Message>}
       {loading ? (
         <Loading />
       ) : (
